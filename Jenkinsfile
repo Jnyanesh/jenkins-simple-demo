@@ -16,6 +16,11 @@ pipeline {
                 sh './script.sh'
             }
         }
+        stage('Run python file'){
+            steps{
+                sh python3 simple.py
+            }
+        }
 
     }
 }
