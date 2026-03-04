@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Run python file'){
             steps{
-                sh python3 simple.py
+                sh 'python3 simple.py'
             }
         }
 
