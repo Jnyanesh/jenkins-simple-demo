@@ -1,6 +1,6 @@
 print("Hello, World!")
-def sum(int a, int b):
+def sum(a,b):
   return a+b
 
-result = sum(8+9)
+result = sum(8,9)
 print(result)
